@@ -91,14 +91,14 @@ extension MenuViewController: UITableViewDelegate, UITableViewDataSource{
                 break
                 
             case 4 :
-                let appID = "id6686408832"
+                let appID = "id6739004981"
                 let urlStr = "https://itunes.apple.com/app/\(appID)?action=write-review"
                 guard let url = URL(string: urlStr), UIApplication.shared.canOpenURL(url) else { return }
                 
                 if #available(iOS 10.0, *) {
                     UIApplication.shared.open(url, options: [:], completionHandler: nil)
                 } else {
-                    UIApplication.shared.openURL(url) // openURL(_:) is deprecated from iOS 10.
+                    UIApplication.shared.openURL(url) 
                 }
                 break
             case 5 :
