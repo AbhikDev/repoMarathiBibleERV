@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomLottieActivity" customModule="Marathi_Bible_ERV" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="z5t-PY-mDe"/>
+                <outlet property="vwContainer" destination="i0m-wX-Rs7" id="MVR-w7-58l"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J8J-Kc-EdO">
+                    <rect key="frame" x="99.5" y="166" width="121.5" height="162"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="i0m-wX-Rs7">
+                            <rect key="frame" x="0.0" y="0.0" width="121.5" height="121.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="i0m-wX-Rs7" secondAttribute="height" multiplier="1:1" id="onz-88-Clt"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivy-U8-pDt">
+                            <rect key="frame" x="20" y="131.5" width="81.5" height="20.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <color key="textColor" name="AppBGColorDark"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="ivy-U8-pDt" secondAttribute="bottom" constant="10" id="31A-wV-KxF"/>
+                        <constraint firstItem="ivy-U8-pDt" firstAttribute="leading" secondItem="J8J-Kc-EdO" secondAttribute="leading" constant="20" id="8x2-5L-b5Q"/>
+                        <constraint firstItem="i0m-wX-Rs7" firstAttribute="leading" secondItem="J8J-Kc-EdO" secondAttribute="leading" id="Jjd-0k-SZv"/>
+                        <constraint firstAttribute="trailing" secondItem="i0m-wX-Rs7" secondAttribute="trailing" id="PFH-Vj-ONk"/>
+                        <constraint firstItem="ivy-U8-pDt" firstAttribute="top" secondItem="i0m-wX-Rs7" secondAttribute="bottom" constant="10" id="V9e-VQ-3zK"/>
+                        <constraint firstItem="i0m-wX-Rs7" firstAttribute="top" secondItem="J8J-Kc-EdO" secondAttribute="top" id="WeD-kb-5uT"/>
+                        <constraint firstAttribute="trailing" secondItem="ivy-U8-pDt" secondAttribute="trailing" constant="20" id="uXr-SQ-qAT"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="J8J-Kc-EdO" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="ZqA-bA-mxL"/>
+                <constraint firstItem="J8J-Kc-EdO" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="xK0-Gt-hZp"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="637.68115942028987" y="796.20535714285711"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="AppBGColorDark">
+            <color red="0.40000000000000002" green="0.40392156862745099" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

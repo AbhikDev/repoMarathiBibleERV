@@ -1,0 +1,1182 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1F7A832D00BDC50072455D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7A822D00BDC50072455D /* AppDelegate.swift */; };
+		0E1F7A8A2D00BDC50072455D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0E1F7A892D00BDC50072455D /* Base */; };
+		0E1F7A8C2D00BDC60072455D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1F7A8B2D00BDC60072455D /* Assets.xcassets */; };
+		0E1F7A8F2D00BDC60072455D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0E1F7A8E2D00BDC60072455D /* Base */; };
+		0E1F7A9A2D00BDC60072455D /* Marathi_Bible_ERVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7A992D00BDC60072455D /* Marathi_Bible_ERVTests.swift */; };
+		0E1F7AA42D00BDC60072455D /* Marathi_Bible_ERVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AA32D00BDC60072455D /* Marathi_Bible_ERVUITests.swift */; };
+		0E1F7AA62D00BDC60072455D /* Marathi_Bible_ERVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AA52D00BDC60072455D /* Marathi_Bible_ERVUITestsLaunchTests.swift */; };
+		0E1F7AB72D00C1620072455D /* AboutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AB62D00C1620072455D /* AboutApp.swift */; };
+		0E1F7AB92D00C1780072455D /* AppSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AB82D00C1780072455D /* AppSettingsVC.swift */; };
+		0E1F7ABC2D00C1990072455D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7ABB2D00C1990072455D /* BaseViewController.swift */; };
+		0E1F7ABF2D00C1C10072455D /* BibleCMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7ABE2D00C1C10072455D /* BibleCMS.swift */; };
+		0E1F7AC42D00C1F40072455D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AC12D00C1F40072455D /* MenuViewController.swift */; };
+		0E1F7AC52D00C1F40072455D /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AC22D00C1F40072455D /* MenuTableViewCell.swift */; };
+		0E1F7AC82D00C2230072455D /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AC72D00C2230072455D /* SplashVC.swift */; };
+		0E1F7ACE2D00C2890072455D /* AudioStoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7ACB2D00C2890072455D /* AudioStoryList.swift */; };
+		0E1F7ACF2D00C2890072455D /* DashBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7ACC2D00C2890072455D /* DashBoardVC.swift */; };
+		0E1F7AD02D00C2890072455D /* StoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7ACD2D00C2890072455D /* StoryDetails.swift */; };
+		0E1F7AD52D00C2AA0072455D /* ModelAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AD22D00C2AA0072455D /* ModelAudio.swift */; };
+		0E1F7AD62D00C2AA0072455D /* ModelStoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AD32D00C2AA0072455D /* ModelStoryList.swift */; };
+		0E1F7AD72D00C2AA0072455D /* ModelStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AD42D00C2AA0072455D /* ModelStory.swift */; };
+		0E1F7B0C2D00C31B0072455D /* AnimatedSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AD92D00C31B0072455D /* AnimatedSplash.swift */; };
+		0E1F7B0D2D00C31B0072455D /* iossplashscreen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0E1F7ADA2D00C31B0072455D /* iossplashscreen.gif */; };
+		0E1F7B0E2D00C31B0072455D /* FloatingReadVolumeVW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7ADC2D00C31B0072455D /* FloatingReadVolumeVW.swift */; };
+		0E1F7B0F2D00C31B0072455D /* FloatingReadVolumeVW.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E1F7ADD2D00C31B0072455D /* FloatingReadVolumeVW.xib */; };
+		0E1F7B102D00C31B0072455D /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7ADF2D00C31B0072455D /* CustomNavigationView.swift */; };
+		0E1F7B112D00C31B0072455D /* CustomNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E1F7AE02D00C31B0072455D /* CustomNavigationView.xib */; };
+		0E1F7B122D00C31B0072455D /* BibleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AE22D00C31B0072455D /* BibleExtension.swift */; };
+		0E1F7B132D00C31B0072455D /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AE32D00C31B0072455D /* DesignableButton.swift */; };
+		0E1F7B142D00C31B0072455D /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AE42D00C31B0072455D /* DesignableView.swift */; };
+		0E1F7B152D00C31B0072455D /* DesignableGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AE62D00C31B0072455D /* DesignableGradientView.swift */; };
+		0E1F7B162D00C31B0072455D /* ListPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AE82D00C31B0072455D /* ListPickerView.swift */; };
+		0E1F7B172D00C31B0072455D /* ListPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E1F7AE92D00C31B0072455D /* ListPickerView.xib */; };
+		0E1F7B182D00C31B0072455D /* CommonCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AEB2D00C31B0072455D /* CommonCellTableViewCell.swift */; };
+		0E1F7B192D00C31B0072455D /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AEC2D00C31B0072455D /* ContentCell.swift */; };
+		0E1F7B1A2D00C31B0072455D /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AED2D00C31B0072455D /* HeaderCell.swift */; };
+		0E1F7B1B2D00C31B0072455D /* CustomLottieActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AF02D00C31B0072455D /* CustomLottieActivity.swift */; };
+		0E1F7B1C2D00C31B0072455D /* CustomLottieActivity.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E1F7AF12D00C31B0072455D /* CustomLottieActivity.xib */; };
+		0E1F7B1D2D00C31B0072455D /* MyWebServiceOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AF32D00C31B0072455D /* MyWebServiceOperation.swift */; };
+		0E1F7B1E2D00C31B0072455D /* Rechability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AF42D00C31B0072455D /* Rechability.swift */; };
+		0E1F7B1F2D00C31B0072455D /* WebServiceOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AF52D00C31B0072455D /* WebServiceOperation.swift */; };
+		0E1F7B202D00C31B0072455D /* bookslottie.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E1F7AF72D00C31B0072455D /* bookslottie.json */; };
+		0E1F7B212D00C31B0072455D /* loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E1F7AF82D00C31B0072455D /* loader.json */; };
+		0E1F7B222D00C31B0072455D /* shonar_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E1F7AFA2D00C31B0072455D /* shonar_bold.ttf */; };
+		0E1F7B232D00C31B0072455D /* shonar.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E1F7AFB2D00C31B0072455D /* shonar.ttf */; };
+		0E1F7B242D00C31B0072455D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AFD2D00C31B0072455D /* Constant.swift */; };
+		0E1F7B252D00C31B0072455D /* MessageConstent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7AFE2D00C31B0072455D /* MessageConstent.swift */; };
+		0E1F7B262D00C31B0072455D /* AudioSpeachHelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7B002D00C31B0072455D /* AudioSpeachHelperClass.swift */; };
+		0E1F7B272D00C31B0072455D /* AudioLowerVersionVW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7B022D00C31B0072455D /* AudioLowerVersionVW.swift */; };
+		0E1F7B282D00C31B0072455D /* AudioLowerVersionVW.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E1F7B032D00C31B0072455D /* AudioLowerVersionVW.xib */; };
+		0E1F7B292D00C31B0072455D /* AudioVW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7B042D00C31B0072455D /* AudioVW.swift */; };
+		0E1F7B2A2D00C31B0072455D /* AudioVW.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E1F7B052D00C31B0072455D /* AudioVW.xib */; };
+		0E1F7B2B2D00C31B0072455D /* AvAudioHelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7B072D00C31B0072455D /* AvAudioHelperClass.swift */; };
+		0E1F7B2C2D00C31B0072455D /* AudioRepositoryClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F7B092D00C31B0072455D /* AudioRepositoryClass.swift */; };
+		15CF5A89DE4B88DA96C01058 /* Pods_Marathi_Bible_ERVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619B671A6DDAFFEB5D55AD07 /* Pods_Marathi_Bible_ERVTests.framework */; };
+		AB5EAC53A5DE59EB3A878437 /* Pods_Marathi_Bible_ERV_Marathi_Bible_ERVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9442AC7DB2850F4374C45795 /* Pods_Marathi_Bible_ERV_Marathi_Bible_ERVUITests.framework */; };
+		DCA80967DA195906E81A3F0F /* Pods_Marathi_Bible_ERV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A85925E510474929113BE44 /* Pods_Marathi_Bible_ERV.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E1F7A962D00BDC60072455D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E1F7A772D00BDC50072455D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E1F7A7E2D00BDC50072455D;
+			remoteInfo = "Marathi Bible ERV";
+		};
+		0E1F7AA02D00BDC60072455D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E1F7A772D00BDC50072455D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E1F7A7E2D00BDC50072455D;
+			remoteInfo = "Marathi Bible ERV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E1F7A7F2D00BDC50072455D /* Marathi Bible ERV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marathi Bible ERV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1F7A822D00BDC50072455D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E1F7A892D00BDC50072455D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E1F7A8B2D00BDC60072455D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E1F7A8E2D00BDC60072455D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E1F7A902D00BDC60072455D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E1F7A952D00BDC60072455D /* Marathi Bible ERVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marathi Bible ERVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1F7A992D00BDC60072455D /* Marathi_Bible_ERVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marathi_Bible_ERVTests.swift; sourceTree = "<group>"; };
+		0E1F7A9F2D00BDC60072455D /* Marathi Bible ERVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marathi Bible ERVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1F7AA32D00BDC60072455D /* Marathi_Bible_ERVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marathi_Bible_ERVUITests.swift; sourceTree = "<group>"; };
+		0E1F7AA52D00BDC60072455D /* Marathi_Bible_ERVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marathi_Bible_ERVUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E1F7AB62D00C1620072455D /* AboutApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutApp.swift; sourceTree = "<group>"; };
+		0E1F7AB82D00C1780072455D /* AppSettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettingsVC.swift; sourceTree = "<group>"; };
+		0E1F7ABB2D00C1990072455D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0E1F7ABE2D00C1C10072455D /* BibleCMS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleCMS.swift; sourceTree = "<group>"; };
+		0E1F7AC12D00C1F40072455D /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0E1F7AC22D00C1F40072455D /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		0E1F7AC72D00C2230072455D /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		0E1F7ACB2D00C2890072455D /* AudioStoryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioStoryList.swift; sourceTree = "<group>"; };
+		0E1F7ACC2D00C2890072455D /* DashBoardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardVC.swift; sourceTree = "<group>"; };
+		0E1F7ACD2D00C2890072455D /* StoryDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryDetails.swift; sourceTree = "<group>"; };
+		0E1F7AD22D00C2AA0072455D /* ModelAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelAudio.swift; sourceTree = "<group>"; };
+		0E1F7AD32D00C2AA0072455D /* ModelStoryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelStoryList.swift; sourceTree = "<group>"; };
+		0E1F7AD42D00C2AA0072455D /* ModelStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelStory.swift; sourceTree = "<group>"; };
+		0E1F7AD92D00C31B0072455D /* AnimatedSplash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedSplash.swift; sourceTree = "<group>"; };
+		0E1F7ADA2D00C31B0072455D /* iossplashscreen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = iossplashscreen.gif; sourceTree = "<group>"; };
+		0E1F7ADC2D00C31B0072455D /* FloatingReadVolumeVW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingReadVolumeVW.swift; sourceTree = "<group>"; };
+		0E1F7ADD2D00C31B0072455D /* FloatingReadVolumeVW.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FloatingReadVolumeVW.xib; sourceTree = "<group>"; };
+		0E1F7ADF2D00C31B0072455D /* CustomNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
+		0E1F7AE02D00C31B0072455D /* CustomNavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomNavigationView.xib; sourceTree = "<group>"; };
+		0E1F7AE22D00C31B0072455D /* BibleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleExtension.swift; sourceTree = "<group>"; };
+		0E1F7AE32D00C31B0072455D /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		0E1F7AE42D00C31B0072455D /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		0E1F7AE62D00C31B0072455D /* DesignableGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableGradientView.swift; sourceTree = "<group>"; };
+		0E1F7AE82D00C31B0072455D /* ListPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPickerView.swift; sourceTree = "<group>"; };
+		0E1F7AE92D00C31B0072455D /* ListPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListPickerView.xib; sourceTree = "<group>"; };
+		0E1F7AEB2D00C31B0072455D /* CommonCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonCellTableViewCell.swift; sourceTree = "<group>"; };
+		0E1F7AEC2D00C31B0072455D /* ContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		0E1F7AED2D00C31B0072455D /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		0E1F7AF02D00C31B0072455D /* CustomLottieActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLottieActivity.swift; sourceTree = "<group>"; };
+		0E1F7AF12D00C31B0072455D /* CustomLottieActivity.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomLottieActivity.xib; sourceTree = "<group>"; };
+		0E1F7AF32D00C31B0072455D /* MyWebServiceOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWebServiceOperation.swift; sourceTree = "<group>"; };
+		0E1F7AF42D00C31B0072455D /* Rechability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rechability.swift; sourceTree = "<group>"; };
+		0E1F7AF52D00C31B0072455D /* WebServiceOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceOperation.swift; sourceTree = "<group>"; };
+		0E1F7AF72D00C31B0072455D /* bookslottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bookslottie.json; sourceTree = "<group>"; };
+		0E1F7AF82D00C31B0072455D /* loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loader.json; sourceTree = "<group>"; };
+		0E1F7AFA2D00C31B0072455D /* shonar_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shonar_bold.ttf; sourceTree = "<group>"; };
+		0E1F7AFB2D00C31B0072455D /* shonar.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shonar.ttf; sourceTree = "<group>"; };
+		0E1F7AFD2D00C31B0072455D /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		0E1F7AFE2D00C31B0072455D /* MessageConstent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageConstent.swift; sourceTree = "<group>"; };
+		0E1F7B002D00C31B0072455D /* AudioSpeachHelperClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioSpeachHelperClass.swift; sourceTree = "<group>"; };
+		0E1F7B022D00C31B0072455D /* AudioLowerVersionVW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioLowerVersionVW.swift; sourceTree = "<group>"; };
+		0E1F7B032D00C31B0072455D /* AudioLowerVersionVW.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioLowerVersionVW.xib; sourceTree = "<group>"; };
+		0E1F7B042D00C31B0072455D /* AudioVW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioVW.swift; sourceTree = "<group>"; };
+		0E1F7B052D00C31B0072455D /* AudioVW.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioVW.xib; sourceTree = "<group>"; };
+		0E1F7B072D00C31B0072455D /* AvAudioHelperClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvAudioHelperClass.swift; sourceTree = "<group>"; };
+		0E1F7B092D00C31B0072455D /* AudioRepositoryClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioRepositoryClass.swift; sourceTree = "<group>"; };
+		1B9172C44DF60ED903845724 /* Pods-Marathi Bible ERV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marathi Bible ERV.debug.xcconfig"; path = "Target Support Files/Pods-Marathi Bible ERV/Pods-Marathi Bible ERV.debug.xcconfig"; sourceTree = "<group>"; };
+		3A85925E510474929113BE44 /* Pods_Marathi_Bible_ERV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marathi_Bible_ERV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		422A148D252AFE902EA1E872 /* Pods-Marathi Bible ERV-Marathi Bible ERVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marathi Bible ERV-Marathi Bible ERVUITests.debug.xcconfig"; path = "Target Support Files/Pods-Marathi Bible ERV-Marathi Bible ERVUITests/Pods-Marathi Bible ERV-Marathi Bible ERVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DFA1BDC21DA387743749438 /* Pods-Marathi Bible ERV-Marathi Bible ERVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marathi Bible ERV-Marathi Bible ERVUITests.release.xcconfig"; path = "Target Support Files/Pods-Marathi Bible ERV-Marathi Bible ERVUITests/Pods-Marathi Bible ERV-Marathi Bible ERVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		619B671A6DDAFFEB5D55AD07 /* Pods_Marathi_Bible_ERVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marathi_Bible_ERVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DEFE0A6D64CE936A120CD8 /* Pods-Marathi Bible ERV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marathi Bible ERV.release.xcconfig"; path = "Target Support Files/Pods-Marathi Bible ERV/Pods-Marathi Bible ERV.release.xcconfig"; sourceTree = "<group>"; };
+		883A07C68223A439BA131B34 /* Pods-Marathi Bible ERVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marathi Bible ERVTests.debug.xcconfig"; path = "Target Support Files/Pods-Marathi Bible ERVTests/Pods-Marathi Bible ERVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9442AC7DB2850F4374C45795 /* Pods_Marathi_Bible_ERV_Marathi_Bible_ERVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marathi_Bible_ERV_Marathi_Bible_ERVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49C590C4596B11EFEB4FB02 /* Pods-Marathi Bible ERVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marathi Bible ERVTests.release.xcconfig"; path = "Target Support Files/Pods-Marathi Bible ERVTests/Pods-Marathi Bible ERVTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E1F7A7C2D00BDC50072455D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA80967DA195906E81A3F0F /* Pods_Marathi_Bible_ERV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F7A922D00BDC60072455D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CF5A89DE4B88DA96C01058 /* Pods_Marathi_Bible_ERVTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F7A9C2D00BDC60072455D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5EAC53A5DE59EB3A878437 /* Pods_Marathi_Bible_ERV_Marathi_Bible_ERVUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E1F7A762D00BDC50072455D = {
+			isa = PBXGroup;
+			children = (
+				0E1F7A812D00BDC50072455D /* Marathi Bible ERV */,
+				0E1F7A982D00BDC60072455D /* Marathi Bible ERVTests */,
+				0E1F7AA22D00BDC60072455D /* Marathi Bible ERVUITests */,
+				0E1F7A802D00BDC50072455D /* Products */,
+				77273707BC92DF19B9F86AED /* Pods */,
+				B6B1385806794C843F14CE5E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E1F7A802D00BDC50072455D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7A7F2D00BDC50072455D /* Marathi Bible ERV.app */,
+				0E1F7A952D00BDC60072455D /* Marathi Bible ERVTests.xctest */,
+				0E1F7A9F2D00BDC60072455D /* Marathi Bible ERVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E1F7A812D00BDC50072455D /* Marathi Bible ERV */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AD82D00C2D20072455D /* Presentation Layer */,
+				0E1F7AB22D00C1260072455D /* Business Layer */,
+				0E1F7A822D00BDC50072455D /* AppDelegate.swift */,
+				0E1F7A882D00BDC50072455D /* Main.storyboard */,
+				0E1F7A8B2D00BDC60072455D /* Assets.xcassets */,
+				0E1F7A8D2D00BDC60072455D /* LaunchScreen.storyboard */,
+				0E1F7A902D00BDC60072455D /* Info.plist */,
+			);
+			path = "Marathi Bible ERV";
+			sourceTree = "<group>";
+		};
+		0E1F7A982D00BDC60072455D /* Marathi Bible ERVTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7A992D00BDC60072455D /* Marathi_Bible_ERVTests.swift */,
+			);
+			path = "Marathi Bible ERVTests";
+			sourceTree = "<group>";
+		};
+		0E1F7AA22D00BDC60072455D /* Marathi Bible ERVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AA32D00BDC60072455D /* Marathi_Bible_ERVUITests.swift */,
+				0E1F7AA52D00BDC60072455D /* Marathi_Bible_ERVUITestsLaunchTests.swift */,
+			);
+			path = "Marathi Bible ERVUITests";
+			sourceTree = "<group>";
+		};
+		0E1F7AB22D00C1260072455D /* Business Layer */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AD12D00C2930072455D /* Model */,
+				0E1F7AB32D00C1360072455D /* Controller */,
+			);
+			path = "Business Layer";
+			sourceTree = "<group>";
+		};
+		0E1F7AB32D00C1360072455D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7ACA2D00C26B0072455D /* Screen */,
+				0E1F7AC62D00C2080072455D /* Splash */,
+				0E1F7AC02D00C1CF0072455D /* MenuViewController */,
+				0E1F7ABD2D00C1AD0072455D /* CMS */,
+				0E1F7ABA2D00C1820072455D /* BaseVC */,
+				0E1F7AB52D00C14D0072455D /* AppSettings */,
+				0E1F7AB42D00C1420072455D /* About */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E1F7AB42D00C1420072455D /* About */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AB62D00C1620072455D /* AboutApp.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		0E1F7AB52D00C14D0072455D /* AppSettings */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AB82D00C1780072455D /* AppSettingsVC.swift */,
+			);
+			path = AppSettings;
+			sourceTree = "<group>";
+		};
+		0E1F7ABA2D00C1820072455D /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7ABB2D00C1990072455D /* BaseViewController.swift */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		0E1F7ABD2D00C1AD0072455D /* CMS */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7ABE2D00C1C10072455D /* BibleCMS.swift */,
+			);
+			path = CMS;
+			sourceTree = "<group>";
+		};
+		0E1F7AC02D00C1CF0072455D /* MenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AC32D00C1F40072455D /* MenuCell */,
+				0E1F7AC12D00C1F40072455D /* MenuViewController.swift */,
+			);
+			path = MenuViewController;
+			sourceTree = "<group>";
+		};
+		0E1F7AC32D00C1F40072455D /* MenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AC22D00C1F40072455D /* MenuTableViewCell.swift */,
+			);
+			path = MenuCell;
+			sourceTree = "<group>";
+		};
+		0E1F7AC62D00C2080072455D /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AC72D00C2230072455D /* SplashVC.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		0E1F7ACA2D00C26B0072455D /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7ACB2D00C2890072455D /* AudioStoryList.swift */,
+				0E1F7ACC2D00C2890072455D /* DashBoardVC.swift */,
+				0E1F7ACD2D00C2890072455D /* StoryDetails.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		0E1F7AD12D00C2930072455D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AD22D00C2AA0072455D /* ModelAudio.swift */,
+				0E1F7AD42D00C2AA0072455D /* ModelStory.swift */,
+				0E1F7AD32D00C2AA0072455D /* ModelStoryList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E1F7AD82D00C2D20072455D /* Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AFC2D00C31B0072455D /* App Font */,
+				0E1F7AFF2D00C31B0072455D /* AppConstant */,
+				0E1F7AF22D00C31B0072455D /* CustomActivity */,
+				0E1F7B0B2D00C31B0072455D /* CustomControl */,
+				0E1F7AEF2D00C31B0072455D /* CustomView */,
+				0E1F7AF92D00C31B0072455D /* SupportingFile */,
+				0E1F7AF62D00C31B0072455D /* WebServices */,
+			);
+			path = "Presentation Layer";
+			sourceTree = "<group>";
+		};
+		0E1F7ADB2D00C31B0072455D /* AnimationSplash */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AD92D00C31B0072455D /* AnimatedSplash.swift */,
+				0E1F7ADA2D00C31B0072455D /* iossplashscreen.gif */,
+			);
+			path = AnimationSplash;
+			sourceTree = "<group>";
+		};
+		0E1F7ADE2D00C31B0072455D /* CustomFloatingView */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7ADC2D00C31B0072455D /* FloatingReadVolumeVW.swift */,
+				0E1F7ADD2D00C31B0072455D /* FloatingReadVolumeVW.xib */,
+			);
+			path = CustomFloatingView;
+			sourceTree = "<group>";
+		};
+		0E1F7AE12D00C31B0072455D /* CustomNavbar */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7ADF2D00C31B0072455D /* CustomNavigationView.swift */,
+				0E1F7AE02D00C31B0072455D /* CustomNavigationView.xib */,
+			);
+			path = CustomNavbar;
+			sourceTree = "<group>";
+		};
+		0E1F7AE52D00C31B0072455D /* DesignableClass */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AE22D00C31B0072455D /* BibleExtension.swift */,
+				0E1F7AE32D00C31B0072455D /* DesignableButton.swift */,
+				0E1F7AE42D00C31B0072455D /* DesignableView.swift */,
+			);
+			path = DesignableClass;
+			sourceTree = "<group>";
+		};
+		0E1F7AE72D00C31B0072455D /* GradientView */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AE62D00C31B0072455D /* DesignableGradientView.swift */,
+			);
+			path = GradientView;
+			sourceTree = "<group>";
+		};
+		0E1F7AEA2D00C31B0072455D /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AE82D00C31B0072455D /* ListPickerView.swift */,
+				0E1F7AE92D00C31B0072455D /* ListPickerView.xib */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		0E1F7AEE2D00C31B0072455D /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AEB2D00C31B0072455D /* CommonCellTableViewCell.swift */,
+				0E1F7AEC2D00C31B0072455D /* ContentCell.swift */,
+				0E1F7AED2D00C31B0072455D /* HeaderCell.swift */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		0E1F7AEF2D00C31B0072455D /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7ADB2D00C31B0072455D /* AnimationSplash */,
+				0E1F7ADE2D00C31B0072455D /* CustomFloatingView */,
+				0E1F7AE12D00C31B0072455D /* CustomNavbar */,
+				0E1F7AE52D00C31B0072455D /* DesignableClass */,
+				0E1F7AE72D00C31B0072455D /* GradientView */,
+				0E1F7AEA2D00C31B0072455D /* PickerView */,
+				0E1F7AEE2D00C31B0072455D /* TableCell */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		0E1F7AF22D00C31B0072455D /* CustomActivity */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AF02D00C31B0072455D /* CustomLottieActivity.swift */,
+				0E1F7AF12D00C31B0072455D /* CustomLottieActivity.xib */,
+			);
+			path = CustomActivity;
+			sourceTree = "<group>";
+		};
+		0E1F7AF62D00C31B0072455D /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AF32D00C31B0072455D /* MyWebServiceOperation.swift */,
+				0E1F7AF42D00C31B0072455D /* Rechability.swift */,
+				0E1F7AF52D00C31B0072455D /* WebServiceOperation.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		0E1F7AF92D00C31B0072455D /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AF72D00C31B0072455D /* bookslottie.json */,
+				0E1F7AF82D00C31B0072455D /* loader.json */,
+			);
+			path = SupportingFile;
+			sourceTree = "<group>";
+		};
+		0E1F7AFC2D00C31B0072455D /* App Font */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AFA2D00C31B0072455D /* shonar_bold.ttf */,
+				0E1F7AFB2D00C31B0072455D /* shonar.ttf */,
+			);
+			path = "App Font";
+			sourceTree = "<group>";
+		};
+		0E1F7AFF2D00C31B0072455D /* AppConstant */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7AFD2D00C31B0072455D /* Constant.swift */,
+				0E1F7AFE2D00C31B0072455D /* MessageConstent.swift */,
+			);
+			path = AppConstant;
+			sourceTree = "<group>";
+		};
+		0E1F7B012D00C31B0072455D /* AudioSpeachHelper */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7B002D00C31B0072455D /* AudioSpeachHelperClass.swift */,
+			);
+			path = AudioSpeachHelper;
+			sourceTree = "<group>";
+		};
+		0E1F7B062D00C31B0072455D /* AudioUI */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7B022D00C31B0072455D /* AudioLowerVersionVW.swift */,
+				0E1F7B032D00C31B0072455D /* AudioLowerVersionVW.xib */,
+				0E1F7B042D00C31B0072455D /* AudioVW.swift */,
+				0E1F7B052D00C31B0072455D /* AudioVW.xib */,
+			);
+			path = AudioUI;
+			sourceTree = "<group>";
+		};
+		0E1F7B082D00C31B0072455D /* AvAudioHelper */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7B072D00C31B0072455D /* AvAudioHelperClass.swift */,
+			);
+			path = AvAudioHelper;
+			sourceTree = "<group>";
+		};
+		0E1F7B0A2D00C31B0072455D /* AudioHandler */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7B012D00C31B0072455D /* AudioSpeachHelper */,
+				0E1F7B062D00C31B0072455D /* AudioUI */,
+				0E1F7B082D00C31B0072455D /* AvAudioHelper */,
+				0E1F7B092D00C31B0072455D /* AudioRepositoryClass.swift */,
+			);
+			path = AudioHandler;
+			sourceTree = "<group>";
+		};
+		0E1F7B0B2D00C31B0072455D /* CustomControl */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F7B0A2D00C31B0072455D /* AudioHandler */,
+			);
+			path = CustomControl;
+			sourceTree = "<group>";
+		};
+		77273707BC92DF19B9F86AED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B9172C44DF60ED903845724 /* Pods-Marathi Bible ERV.debug.xcconfig */,
+				70DEFE0A6D64CE936A120CD8 /* Pods-Marathi Bible ERV.release.xcconfig */,
+				422A148D252AFE902EA1E872 /* Pods-Marathi Bible ERV-Marathi Bible ERVUITests.debug.xcconfig */,
+				4DFA1BDC21DA387743749438 /* Pods-Marathi Bible ERV-Marathi Bible ERVUITests.release.xcconfig */,
+				883A07C68223A439BA131B34 /* Pods-Marathi Bible ERVTests.debug.xcconfig */,
+				A49C590C4596B11EFEB4FB02 /* Pods-Marathi Bible ERVTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B6B1385806794C843F14CE5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A85925E510474929113BE44 /* Pods_Marathi_Bible_ERV.framework */,
+				9442AC7DB2850F4374C45795 /* Pods_Marathi_Bible_ERV_Marathi_Bible_ERVUITests.framework */,
+				619B671A6DDAFFEB5D55AD07 /* Pods_Marathi_Bible_ERVTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E1F7A7E2D00BDC50072455D /* Marathi Bible ERV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1F7AA92D00BDC60072455D /* Build configuration list for PBXNativeTarget "Marathi Bible ERV" */;
+			buildPhases = (
+				96D469980A655997560FC30D /* [CP] Check Pods Manifest.lock */,
+				0E1F7A7B2D00BDC50072455D /* Sources */,
+				0E1F7A7C2D00BDC50072455D /* Frameworks */,
+				0E1F7A7D2D00BDC50072455D /* Resources */,
+				5E8FD11FCA54E36A4509AA06 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Marathi Bible ERV";
+			productName = "Marathi Bible ERV";
+			productReference = 0E1F7A7F2D00BDC50072455D /* Marathi Bible ERV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E1F7A942D00BDC60072455D /* Marathi Bible ERVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1F7AAC2D00BDC60072455D /* Build configuration list for PBXNativeTarget "Marathi Bible ERVTests" */;
+			buildPhases = (
+				13F064068C2395C3340EACDD /* [CP] Check Pods Manifest.lock */,
+				0E1F7A912D00BDC60072455D /* Sources */,
+				0E1F7A922D00BDC60072455D /* Frameworks */,
+				0E1F7A932D00BDC60072455D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E1F7A972D00BDC60072455D /* PBXTargetDependency */,
+			);
+			name = "Marathi Bible ERVTests";
+			productName = "Marathi Bible ERVTests";
+			productReference = 0E1F7A952D00BDC60072455D /* Marathi Bible ERVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E1F7A9E2D00BDC60072455D /* Marathi Bible ERVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1F7AAF2D00BDC60072455D /* Build configuration list for PBXNativeTarget "Marathi Bible ERVUITests" */;
+			buildPhases = (
+				D24C501A9A9A49572DB61DC9 /* [CP] Check Pods Manifest.lock */,
+				0E1F7A9B2D00BDC60072455D /* Sources */,
+				0E1F7A9C2D00BDC60072455D /* Frameworks */,
+				0E1F7A9D2D00BDC60072455D /* Resources */,
+				34EA08B16CDE33D94188EC71 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E1F7AA12D00BDC60072455D /* PBXTargetDependency */,
+			);
+			name = "Marathi Bible ERVUITests";
+			productName = "Marathi Bible ERVUITests";
+			productReference = 0E1F7A9F2D00BDC60072455D /* Marathi Bible ERVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E1F7A772D00BDC50072455D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0E1F7A7E2D00BDC50072455D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0E1F7A942D00BDC60072455D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0E1F7A7E2D00BDC50072455D;
+					};
+					0E1F7A9E2D00BDC60072455D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0E1F7A7E2D00BDC50072455D;
+					};
+				};
+			};
+			buildConfigurationList = 0E1F7A7A2D00BDC50072455D /* Build configuration list for PBXProject "Marathi Bible ERV" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E1F7A762D00BDC50072455D;
+			productRefGroup = 0E1F7A802D00BDC50072455D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E1F7A7E2D00BDC50072455D /* Marathi Bible ERV */,
+				0E1F7A942D00BDC60072455D /* Marathi Bible ERVTests */,
+				0E1F7A9E2D00BDC60072455D /* Marathi Bible ERVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E1F7A7D2D00BDC50072455D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1F7A8C2D00BDC60072455D /* Assets.xcassets in Resources */,
+				0E1F7B0F2D00C31B0072455D /* FloatingReadVolumeVW.xib in Resources */,
+				0E1F7B222D00C31B0072455D /* shonar_bold.ttf in Resources */,
+				0E1F7B2A2D00C31B0072455D /* AudioVW.xib in Resources */,
+				0E1F7B1C2D00C31B0072455D /* CustomLottieActivity.xib in Resources */,
+				0E1F7B282D00C31B0072455D /* AudioLowerVersionVW.xib in Resources */,
+				0E1F7B0D2D00C31B0072455D /* iossplashscreen.gif in Resources */,
+				0E1F7B232D00C31B0072455D /* shonar.ttf in Resources */,
+				0E1F7B212D00C31B0072455D /* loader.json in Resources */,
+				0E1F7B172D00C31B0072455D /* ListPickerView.xib in Resources */,
+				0E1F7B202D00C31B0072455D /* bookslottie.json in Resources */,
+				0E1F7B112D00C31B0072455D /* CustomNavigationView.xib in Resources */,
+				0E1F7A8F2D00BDC60072455D /* Base in Resources */,
+				0E1F7A8A2D00BDC50072455D /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F7A932D00BDC60072455D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F7A9D2D00BDC60072455D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13F064068C2395C3340EACDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marathi Bible ERVTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34EA08B16CDE33D94188EC71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marathi Bible ERV-Marathi Bible ERVUITests/Pods-Marathi Bible ERV-Marathi Bible ERVUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marathi Bible ERV-Marathi Bible ERVUITests/Pods-Marathi Bible ERV-Marathi Bible ERVUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marathi Bible ERV-Marathi Bible ERVUITests/Pods-Marathi Bible ERV-Marathi Bible ERVUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E8FD11FCA54E36A4509AA06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marathi Bible ERV/Pods-Marathi Bible ERV-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marathi Bible ERV/Pods-Marathi Bible ERV-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marathi Bible ERV/Pods-Marathi Bible ERV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96D469980A655997560FC30D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marathi Bible ERV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D24C501A9A9A49572DB61DC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marathi Bible ERV-Marathi Bible ERVUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E1F7A7B2D00BDC50072455D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1F7AD02D00C2890072455D /* StoryDetails.swift in Sources */,
+				0E1F7AD72D00C2AA0072455D /* ModelStory.swift in Sources */,
+				0E1F7ABC2D00C1990072455D /* BaseViewController.swift in Sources */,
+				0E1F7B252D00C31B0072455D /* MessageConstent.swift in Sources */,
+				0E1F7B132D00C31B0072455D /* DesignableButton.swift in Sources */,
+				0E1F7B1D2D00C31B0072455D /* MyWebServiceOperation.swift in Sources */,
+				0E1F7B2C2D00C31B0072455D /* AudioRepositoryClass.swift in Sources */,
+				0E1F7B1A2D00C31B0072455D /* HeaderCell.swift in Sources */,
+				0E1F7B102D00C31B0072455D /* CustomNavigationView.swift in Sources */,
+				0E1F7AB72D00C1620072455D /* AboutApp.swift in Sources */,
+				0E1F7ACF2D00C2890072455D /* DashBoardVC.swift in Sources */,
+				0E1F7B272D00C31B0072455D /* AudioLowerVersionVW.swift in Sources */,
+				0E1F7B162D00C31B0072455D /* ListPickerView.swift in Sources */,
+				0E1F7AC52D00C1F40072455D /* MenuTableViewCell.swift in Sources */,
+				0E1F7B1B2D00C31B0072455D /* CustomLottieActivity.swift in Sources */,
+				0E1F7ABF2D00C1C10072455D /* BibleCMS.swift in Sources */,
+				0E1F7AC42D00C1F40072455D /* MenuViewController.swift in Sources */,
+				0E1F7AB92D00C1780072455D /* AppSettingsVC.swift in Sources */,
+				0E1F7B142D00C31B0072455D /* DesignableView.swift in Sources */,
+				0E1F7B152D00C31B0072455D /* DesignableGradientView.swift in Sources */,
+				0E1F7B0E2D00C31B0072455D /* FloatingReadVolumeVW.swift in Sources */,
+				0E1F7B242D00C31B0072455D /* Constant.swift in Sources */,
+				0E1F7AD62D00C2AA0072455D /* ModelStoryList.swift in Sources */,
+				0E1F7B122D00C31B0072455D /* BibleExtension.swift in Sources */,
+				0E1F7B1E2D00C31B0072455D /* Rechability.swift in Sources */,
+				0E1F7A832D00BDC50072455D /* AppDelegate.swift in Sources */,
+				0E1F7B2B2D00C31B0072455D /* AvAudioHelperClass.swift in Sources */,
+				0E1F7B262D00C31B0072455D /* AudioSpeachHelperClass.swift in Sources */,
+				0E1F7B292D00C31B0072455D /* AudioVW.swift in Sources */,
+				0E1F7AD52D00C2AA0072455D /* ModelAudio.swift in Sources */,
+				0E1F7B182D00C31B0072455D /* CommonCellTableViewCell.swift in Sources */,
+				0E1F7B0C2D00C31B0072455D /* AnimatedSplash.swift in Sources */,
+				0E1F7B1F2D00C31B0072455D /* WebServiceOperation.swift in Sources */,
+				0E1F7B192D00C31B0072455D /* ContentCell.swift in Sources */,
+				0E1F7ACE2D00C2890072455D /* AudioStoryList.swift in Sources */,
+				0E1F7AC82D00C2230072455D /* SplashVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F7A912D00BDC60072455D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1F7A9A2D00BDC60072455D /* Marathi_Bible_ERVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F7A9B2D00BDC60072455D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1F7AA62D00BDC60072455D /* Marathi_Bible_ERVUITestsLaunchTests.swift in Sources */,
+				0E1F7AA42D00BDC60072455D /* Marathi_Bible_ERVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E1F7A972D00BDC60072455D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E1F7A7E2D00BDC50072455D /* Marathi Bible ERV */;
+			targetProxy = 0E1F7A962D00BDC60072455D /* PBXContainerItemProxy */;
+		};
+		0E1F7AA12D00BDC60072455D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E1F7A7E2D00BDC50072455D /* Marathi Bible ERV */;
+			targetProxy = 0E1F7AA02D00BDC60072455D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E1F7A882D00BDC50072455D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E1F7A892D00BDC50072455D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E1F7A8D2D00BDC60072455D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E1F7A8E2D00BDC60072455D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E1F7AA72D00BDC60072455D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E1F7AA82D00BDC60072455D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E1F7AAA2D00BDC60072455D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B9172C44DF60ED903845724 /* Pods-Marathi Bible ERV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5BN33K6Z66;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Marathi Bible ERV/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WorldBIbleTranslationCentre.Marathi-Bible-ERV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E1F7AAB2D00BDC60072455D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70DEFE0A6D64CE936A120CD8 /* Pods-Marathi Bible ERV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5BN33K6Z66;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Marathi Bible ERV/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WorldBIbleTranslationCentre.Marathi-Bible-ERV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0E1F7AAD2D00BDC60072455D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 883A07C68223A439BA131B34 /* Pods-Marathi Bible ERVTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5BN33K6Z66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WorldBIbleTranslationCentre.Marathi-Bible-ERVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marathi Bible ERV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Marathi Bible ERV";
+			};
+			name = Debug;
+		};
+		0E1F7AAE2D00BDC60072455D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49C590C4596B11EFEB4FB02 /* Pods-Marathi Bible ERVTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5BN33K6Z66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WorldBIbleTranslationCentre.Marathi-Bible-ERVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marathi Bible ERV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Marathi Bible ERV";
+			};
+			name = Release;
+		};
+		0E1F7AB02D00BDC60072455D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 422A148D252AFE902EA1E872 /* Pods-Marathi Bible ERV-Marathi Bible ERVUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5BN33K6Z66;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WorldBIbleTranslationCentre.Marathi-Bible-ERVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Marathi Bible ERV";
+			};
+			name = Debug;
+		};
+		0E1F7AB12D00BDC60072455D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DFA1BDC21DA387743749438 /* Pods-Marathi Bible ERV-Marathi Bible ERVUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5BN33K6Z66;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WorldBIbleTranslationCentre.Marathi-Bible-ERVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Marathi Bible ERV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E1F7A7A2D00BDC50072455D /* Build configuration list for PBXProject "Marathi Bible ERV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1F7AA72D00BDC60072455D /* Debug */,
+				0E1F7AA82D00BDC60072455D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1F7AA92D00BDC60072455D /* Build configuration list for PBXNativeTarget "Marathi Bible ERV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1F7AAA2D00BDC60072455D /* Debug */,
+				0E1F7AAB2D00BDC60072455D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1F7AAC2D00BDC60072455D /* Build configuration list for PBXNativeTarget "Marathi Bible ERVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1F7AAD2D00BDC60072455D /* Debug */,
+				0E1F7AAE2D00BDC60072455D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1F7AAF2D00BDC60072455D /* Build configuration list for PBXNativeTarget "Marathi Bible ERVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1F7AB02D00BDC60072455D /* Debug */,
+				0E1F7AB12D00BDC60072455D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E1F7A772D00BDC50072455D /* Project object */;
+}

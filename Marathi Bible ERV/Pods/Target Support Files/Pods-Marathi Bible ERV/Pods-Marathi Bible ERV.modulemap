@@ -1,0 +1,6 @@
+framework module Pods_Marathi_Bible_ERV {
+  umbrella header "Pods-Marathi Bible ERV-umbrella.h"
+
+  export *
+  module * { export * }
+}
