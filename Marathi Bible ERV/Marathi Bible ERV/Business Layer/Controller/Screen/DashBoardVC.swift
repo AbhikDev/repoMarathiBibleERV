@@ -48,22 +48,22 @@ extension DashBoardVC{
     }
     @IBAction func selectionofNewTestament(_ sender:UIButton){
         
-        btnOldT.backgroundColor = UIColor(named: "AppFadeColor")!
-        btnOldT.setTitleColor(.black, for: .normal)
+        btnOldT.backgroundColor = UIColor(named: "AppBGColorLight")!
+        btnOldT.setTitleColor(.white, for: .normal)
         
-        btnNewT.backgroundColor = UIColor(named: "AppBGColorLight")!
-        btnNewT.setTitleColor(.white, for: .normal)
+        btnNewT.backgroundColor = UIColor(named: "AppFadeColor")!
+        btnNewT.setTitleColor(.black, for: .normal)
         isSelectOldTestement = false
         filterofTestament(filtertype: "NT")
         
     }
     func defaultselectionOfTestement(){
         isSelectOldTestement = true
-        btnOldT.backgroundColor = UIColor(named: "AppBGColorLight")!
-        btnOldT.setTitleColor(.white, for: .normal)
+        btnOldT.backgroundColor = UIColor(named: "AppFadeColor")!
+        btnOldT.setTitleColor(.black, for: .normal)
         
-        btnNewT.backgroundColor = UIColor(named: "AppFadeColor")!
-        btnNewT.setTitleColor(.black, for: .normal)
+        btnNewT.backgroundColor = UIColor(named: "AppBGColorLight")!
+        btnNewT.setTitleColor(.white, for: .normal)
         filterofTestament(filtertype: "OT")
     }
     
